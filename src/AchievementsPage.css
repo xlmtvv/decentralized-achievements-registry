@@ -1,0 +1,30 @@
+/* AchievementsPage.css */
+/* Стили для страницы с отображением достижений */
+
+.achievements-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+
+}
+
+.achievements-list li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #292929; /* Темно-серый фон для списка достижений */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 10px #8a2be2; /* Фиолетовая неоновая подсветка */
+
+}

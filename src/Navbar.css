@@ -1,0 +1,50 @@
+/* Стили для Navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #121212;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #8a2be2; /* Фиолетовый цвет при наведении */
+}
+
+.active {
+  color: #8a2be2; /* Фиолетовый цвет для активного пункта */
+}
+
+  
+.wallet {
+  margin-left: auto;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.wallet span {
+  margin-right: 5px;
+}
+
+.wallet::before {
+  content: '🔒';
+  margin-right: 5px;
+}

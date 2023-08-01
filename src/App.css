@@ -1,0 +1,73 @@
+/* Общие стили для приложения */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Темный фон */
+  color: #fff; /* Белый текст */
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Общие стили для кнопок */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #8a2be2; /* Фиолетовый цвет для кнопок */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #32cd32; /* Зеленый цвет при наведении на кнопку */
+}
+
+/* Стили для заголовков */
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #8a2be2; /* Фиолетовый цвет для заголовков */
+}
+
+/* Стили для контента на домашней странице */
+.home-page {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Стили для списка достижений */
+.achievements-list {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements-list li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Добавляем анимацию фейд-ин для списка достижений */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Анимация фейд-ин */
+.achievements-list-entering {
+  opacity: 0;
+}
+
+.achievements-list-entered {
+  opacity: 1;
+}
+
+
+
+

@@ -1,0 +1,79 @@
+/* frontend/src/AddAchievementPage.css */
+/* Styles for the Add Achievement page */
+
+.add-achievement-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.add-achievement-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button.add-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.add-button:hover {
+  background-color: #0056b3;
+}
+
+button.add-button:active {
+  background-color: #003d80;
+}
+
+.how-it-works-section {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.how-it-works-section p {
+  margin-bottom: 10px;
+}
+
+.how-it-works-section ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.how-it-works-section ol li {
+  margin-bottom: 10px;
+}
+
+.how-it-works-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.how-it-works-images img {
+  max-width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
